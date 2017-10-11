@@ -60,10 +60,10 @@
     /* Font slut */
 
     body {
-        margin: 0;
         background-image: url(baggrund.jpeg);
         background-size: cover;
         color: white;
+        width: 100%;
     }
 
     footer {
@@ -95,7 +95,7 @@
         /*fjerner stregen under links */
         color: white;
         /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
-        padding-left: 9px;
+        padding-left: 8px;
         /*skubber linksene fra hinanden */
         display: block;
         font-family: 'gobold', sans-serif;
@@ -125,25 +125,20 @@
     .video {
         height: 100vh;
         width: 100vw;
+        border-style: none;
     }
     /* IKON */
 
-    #splash .ikon {
+    .ikon {
         box-sizing: content-box;
-        padding: 10px;
+        padding: 20px;
         width: 20vw;
         position: fixed;
         top: 0;
     }
 
-    #splash .ikon img {
+    .ikon img {
         width: 100%;
-    }
-
-    .ikon {
-        box-sizing: content-box;
-        padding: 10px;
-        width: 20vw;
     }
     /* *** SPLASH slut *** */
     /* *** index.html start * ***/
