@@ -11,7 +11,56 @@
 }
 
 
-/* hej */
+/* Font start */
+
+@font-face {
+    font-family: 'gobold';
+    src: url('font/gobold-bold-webfont.woff2') format('woff2'), url(font/gobold-bold-webfont.woff) format ('woff') font-weight: normal;
+    font-style: normal;
+}
+
+#om p {
+    font-family: 'gobold', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+#bookbord p {
+    font-family: 'gobold', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+#billeder p {
+    font-family: 'gobold', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+#kontakt p {
+    font-family: 'gobold', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+#priser p {
+    font-family: 'gobold', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+/* Font slut */
 
 body {
     margin: 0;
@@ -154,6 +203,7 @@ header nav img {
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-end;
+    margin: 5px;
 }
 
 .text_bottom {
@@ -162,6 +212,7 @@ header nav img {
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
+    margin: 5px;
 }
 
 .text_top label {
@@ -207,6 +258,8 @@ header nav img {
 #map {
     width: 100%;
     height: 400px;
+    align-self: center;
+    margin: 0px 20vw;
 }
 
 
