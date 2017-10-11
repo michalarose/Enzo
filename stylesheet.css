@@ -159,6 +159,7 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+        padding: 200px 0px 0px 0px;
     }
 
     #priser .bottom {
@@ -177,6 +178,7 @@
         display: flex;
         flex-direction: column;
         margin: 0px 30px 0px 30px;
+        padding: 200px 0px 0px 0px;
     }
 
     #bookbord .column {
@@ -243,6 +245,10 @@
     }
     /* *** Book bord slut *** */
     /* *** Billeder start *** */
+
+    #billeder .content {
+        padding: 200px 0px 0px 0px;
+    }
     /* *** Billeder slut *** */
     /* *** Kontakt start *** */
 
@@ -250,6 +256,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0px 50px 0px 50px;
+        padding: 200px 0px 0px 0px;
     }
 
     #map {
