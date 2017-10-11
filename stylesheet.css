@@ -94,7 +94,7 @@ header nav img {
 #om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 30vw 0px 30vw;
+    margin: 0px auto;
 }
 
 
@@ -121,23 +121,63 @@ header nav img {
 
 /* *** Book bord start *** */
 
+#bookbord .sectionwrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 0px 30px;
+}
+
 #bookbord .column {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 12px 20px;
     margin: 10px 0px 10px 0px;
     box-sizing: border-box;
 }
 
-#bookbord .sectionwrapper {
+#bookbord .content_top {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin: 0px 30px 0px 30px;
 }
 
-#bookbord .content_bottom {
+.text_top {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px 30px 0px 30px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.text_bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.text_top label {
+    width: 85px;
+}
+
+.text_bottom label {
+    width: 85px;
+}
+
+#bookbord .content_bottom form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 35%;
+}
+
+#fname_big {
+    margin: 0px;
+    width: 100%;
+    height: 136px;
+    align-self: center;
 }
 
 
