@@ -51,12 +51,11 @@
         margin: 20px 0px 0px 0px;
     }
 
-    #priser p {
+    #priser td {
         font-family: 'gobold', sans-serif;
         font-weight: 100;
         font-size: 15px;
         letter-spacing: 1px;
-        margin: 20px 0px 0px 0px;
     }
     /* Font slut */
 
@@ -167,17 +166,19 @@
     #priser .top {
         display: flex;
         flex-wrap: wrap;
-        margin: 10px;
-        margin: 0px 30vw;
-        background-color: rgba(39, 39, 39, 0.38);
-        padding: 40px;
+        text-align: center;
+        justify-content: center;
     }
 
     #priser .bottom {
         display: flex;
         flex-wrap: wrap;
-        margin: 0px 33vw;
+        text-align: center;
         text-align: justify;
+        justify-content: center;
+        background-color: rgba(39, 39, 39, 0.42);
+        padding: 20px;
+        margin: 0px 33vw;
     }
     /* *** Priser slut *** */
     /* *** Book bord start *** */
