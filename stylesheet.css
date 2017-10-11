@@ -89,7 +89,31 @@ header nav img {
 /* *** SPLASH slut *** */
 
 
+/* *** index.html start * ***/
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30vw 0px 30vw;
+}
+
+
+/* *** index.html slut * ***/
+
+
 /* *** Priser start *** */
+
+#priser .top {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10vw 0px 20vw;
+}
+
+#priser .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30vw 0px 30vw;
+}
 
 
 /* *** Priser slut *** */
@@ -104,6 +128,18 @@ header nav img {
     box-sizing: border-box;
 }
 
+#bookbord .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px 0px 30px;
+}
+
+#bookbord .content_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px 0px 30px;
+}
+
 
 /* *** Book bord slut *** */
 
@@ -115,6 +151,12 @@ header nav img {
 
 
 /* *** Kontakt start *** */
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 50px 0px 50px;
+}
 
 #map {
     width: 100%;
