@@ -56,7 +56,12 @@
         font-family: 'georgia', sans-serif;
         font-weight: 100;
         font-size: 15px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
+    }
+
+    #priser table {
+        border-style: solid;
+        border-color: aliceblue;
     }
     /* Font slut */
 
@@ -100,7 +105,7 @@
         display: block;
         font-family: 'gobold_boldregular', sans-serif;
         font-weight: 100;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
     }
 
@@ -155,7 +160,7 @@
     #priser .top {
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: left;
         justify-content: center;
         padding: 230px 0px 0px 0px;
     }
@@ -168,6 +173,11 @@
         justify-content: center;
         margin: 0 100px 0 100px;
         box-sizing: border-box;
+    }
+
+    #priser tr.solid {
+        border-style: solid;
+        border-color: aqua;
     }
     /* *** Priser slut *** */
     /* *** Book bord start *** */
