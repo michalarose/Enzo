@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+#om,
+#bookbord,
+#billeder,
+#kontakt,
+#priser {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+
+
+/* *** MENU start *** */
+
+header {
+    position: fixed;
+    /*ligger fast på skærmen */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100vw;
+    /* så den fylder hele linjen */
+    padding: 1em;
+    /*så den ikke ligger så højt */
+}
+
+header nav {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    margin: 0 5vw 0 0;
+    /* dette betyder jeg har sat 5 vw ind til højre, men ikke ændret margin de andre steder */
+}
+
+header nav a {
+    text-decoration: none;
+    /*fjerner stregen under links */
+    color: darkblue;
+    /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
+    padding-left: 4px;
+    /*skubber linksene fra hinanden */
+    display: block;
+}
+
+header nav a:hover {
+    color: #b1cccb;
+    /*brug pseudo-classes til at markerer et link når musen er over */
+}
+
+@media screen and (min-width: 606px) {
+    header nav a {
+        display: inline-block;
+        border-left: 2px solid #b1cccb;
+    }
+}
+
+
+/* *** MENU slut *** */
+
+
+/* *** SPLASH start *** */
+
+
+/* IKON */
+
+#splash .ikon {
+    box-sizing: content-box;
+    padding: 10px;
+    width: 20vw;
+}
+
+#splash .ikon img {
+    width: 100%;
+}
+
+
+/* *** SPLASH slut *** */
+
+
+/* *** Priser start *** */
+
+
+/* *** Priser slut *** */
+
+
+/* *** Book bord start *** */
+
+#bookbord .column {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+
+/* *** Book bord slut *** */
+
+
+/* *** Billeder start *** */
+
+
+/* *** Billeder slut *** */
+
+
+/* *** Kontakt start *** */
+
+<style>#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+</style>
+/* *** Kontakt slut *** */
