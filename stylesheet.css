@@ -15,6 +15,10 @@ body {
     background-color: gainsboro;
 }
 
+.footer {
+    align-self: flex-end;
+}
+
 
 /* *** MENU start *** */
 
