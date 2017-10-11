@@ -200,12 +200,12 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: flex-end;
-        margin: 5px;
         font-family: 'gobold_boldregular', sans-serif;
         font-weight: 100;
         font-size: 15px;
         letter-spacing: 1px;
         margin: 20px 0px 0px 0px;
+        box-sizing: border-box;
     }
 
     .text_bottom {
@@ -214,7 +214,6 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: flex-start;
-        margin: 5px;
         font-family: 'gobold_boldregular', sans-serif;
         font-weight: 100;
         font-size: 15px;
@@ -224,18 +223,32 @@
     }
 
     .text_top label {
-        width: 85px;
+        width: 80px;
     }
 
     .text_bottom label {
-        width: 85px;
+        width: 80px;
+    }
+
+    .content_bottom label {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+        font-family: 'gobold_boldregular', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 20px 0px 0px 0px;
+        box-sizing: border-box;
     }
 
     #bookbord .content_bottom form {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        width: 30%;
+        width: 50%;
     }
 
     #fname_big {
