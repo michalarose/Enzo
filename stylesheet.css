@@ -161,13 +161,15 @@ header nav img {
 #priser .top {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 10vw 0px 20vw;
+    margin: 10px;
+    margin: 0px 25vw;
 }
 
 #priser .bottom {
     display: flex;
     flex-wrap: wrap;
     margin: 0px 30vw 0px 30vw;
+    text-align: justify;
 }
 
 
