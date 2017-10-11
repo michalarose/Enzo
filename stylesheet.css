@@ -1,5 +1,6 @@
     * {
         box-sizing: border-box;
+        border: none;
     }
 
     #om,
@@ -52,7 +53,7 @@
     }
 
     #priser td {
-        font-family: 'gobold_boldregular', sans-serif;
+        font-family: 'georgia', sans-serif;
         font-weight: 100;
         font-size: 15px;
         letter-spacing: 1px;
@@ -167,8 +168,8 @@
         text-align: center;
         text-align: justify;
         justify-content: center;
-        padding: 20px;
-        margin: 0px 33vw;
+        margin: 0 100px 0 100px;
+        box-sizing: border-box;
     }
     /* *** Priser slut *** */
     /* *** Book bord start *** */
@@ -221,6 +222,7 @@
         font-size: 15px;
         letter-spacing: 1px;
         margin: 20px 0px 0px 0px;
+        box-sizing: border-box;
     }
 
     .text_top label {
