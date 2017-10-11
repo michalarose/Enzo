@@ -15,7 +15,7 @@ body {
     background-color: gainsboro;
 }
 
-.footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     align-self: flex-end;
@@ -113,11 +113,11 @@ header nav a:hover {
 
 /* *** Kontakt start *** */
 
-<style>#map {
+#map {
     width: 100%;
     height: 400px;
     background-color: grey;
 }
 
-</style>
+
 /* *** Kontakt slut *** */
