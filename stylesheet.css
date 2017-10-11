@@ -150,6 +150,8 @@ header nav img {
     flex-wrap: wrap;
     margin: 0px 25vw;
     text-align: justify;
+    background-color: rgba(39, 39, 39, 0.38);
+    padding: 40px;
 }
 
 
@@ -162,13 +164,14 @@ header nav img {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-    margin: 0px 25vw;
+    margin: 0px 30vw;
+    text-align: justify;
 }
 
 #priser .bottom {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 30vw 0px 30vw;
+    margin: 0px 32vw;
     text-align: justify;
 }
 
