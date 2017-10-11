@@ -16,6 +16,8 @@ body {
 }
 
 .footer {
+    display: flex;
+    flex-wrap: wrap;
     align-self: flex-end;
 }
 
