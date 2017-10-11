@@ -37,7 +37,7 @@ header {
 header nav {
     font-family: 'Open Sans', sans-serif;
     text-align: right;
-    margin: 0 5vw 0 0;
+    margin: 0 0 0 0;
     /* dette betyder jeg har sat 5 vw ind til højre, men ikke ændret margin de andre steder */
 }
 
@@ -46,7 +46,7 @@ header nav a {
     /*fjerner stregen under links */
     color: darkblue;
     /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
-    padding-left: 4px;
+    padding-left: 9px;
     /*skubber linksene fra hinanden */
     display: block;
 }
@@ -56,10 +56,13 @@ header nav a:hover {
     /*brug pseudo-classes til at markerer et link når musen er over */
 }
 
+header nav img {
+    margin: 0 0 0 0;
+}
+
 @media screen and (min-width: 606px) {
     header nav a {
         display: inline-block;
-        border-left: 2px solid #b1cccb;
     }
 }
 
