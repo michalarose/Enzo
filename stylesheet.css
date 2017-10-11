@@ -127,6 +127,11 @@ header nav img {
 
 /* *** SPLASH start *** */
 
+.video {
+    height: 100vh;
+    width: 100vw;
+}
+
 
 /* IKON */
 
@@ -134,10 +139,22 @@ header nav img {
     box-sizing: content-box;
     padding: 10px;
     width: 20vw;
+    position: fixed;
+    top: 0;
 }
 
 #splash .ikon img {
     width: 100%;
+}
+
+.ikon {
+    box-sizing: content-box;
+    padding: 10px;
+    width: 20vw;
+}
+
+.ikon img {
+    width: 100%
 }
 
 
@@ -151,7 +168,7 @@ header nav img {
     flex-wrap: wrap;
     margin: 0px 25vw;
     text-align: justify;
-    background-color: rgba(39, 39, 39, 0.38);
+    background-color: rgba(39, 39, 39, 0.4);
     padding: 40px;
 }
 
