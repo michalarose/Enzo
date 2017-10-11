@@ -25,6 +25,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     margin: 20px 0px 0px 0px;
+    color: #a5e9f3;
 }
 
 #bookbord p {
@@ -98,7 +99,7 @@ header nav {
 header nav a {
     text-decoration: none;
     /*fjerner stregen under links */
-    color: darkblue;
+    color: white;
     /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
     padding-left: 9px;
     /*skubber linksene fra hinanden */
@@ -165,13 +166,14 @@ header nav img {
     flex-wrap: wrap;
     margin: 10px;
     margin: 0px 30vw;
-    text-align: justify;
+    background-color: rgba(39, 39, 39, 0.38);
+    padding: 40px;
 }
 
 #priser .bottom {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 32vw;
+    margin: 0px 33vw;
     text-align: justify;
 }
 
