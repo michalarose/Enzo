@@ -83,7 +83,7 @@
     header {
         position: fixed;
         /*ligger fast på skærmen */
-        width: 100vw;
+        width: 100%;
         padding: 1em;
         /* så den fylder hele linjen */
         /*så den ikke ligger så højt */
@@ -113,10 +113,6 @@
     header nav a:hover {
         color: #b1cccb;
         /*brug pseudo-classes til at markerer et link når musen er over */
-    }
-
-    header nav img {
-        margin: 0 0 0 0;
     }
 
     @media screen and (min-width: 606px) {
@@ -163,7 +159,7 @@
         flex-wrap: wrap;
         text-align: left;
         justify-content: center;
-        padding: 215px 0px 0px 0px;
+        padding: 215px 15px 0px 15px;
     }
 
     #priser .bottom {
@@ -172,7 +168,7 @@
         text-align: center;
         text-align: justify;
         justify-content: center;
-        margin: 0 100px 0 100px;
+        margin: 0 100px 0px 100px;
         box-sizing: border-box;
     }
 
@@ -184,7 +180,7 @@
     /* *** Book bord start *** */
 
     #bookbord .sectionwrapper {
-        padding: 200px 0px 0px 0px;
+        padding: 170px 0px 0px 0px;
         max-width: 600px;
         margin: 0 auto;
     }
@@ -242,11 +238,24 @@
         background-color: #d71a5e;
         margin: 10px 0px;
     }
+
+    #bookbord .tekst {
+        font-family: 'gobold_boldregular', sans-serif;
+        font-weight: 100;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
     /* *** Book bord slut *** */
     /* *** Billeder start *** */
 
-    #billeder .content {
+    #billeder .sectionwrapper {
         padding: 200px 0px 0px 0px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #billeder .content {
+        margin: 0 auto;
     }
     /* *** Billeder slut *** */
     /* *** Kontakt start *** */
