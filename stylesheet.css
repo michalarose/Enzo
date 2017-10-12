@@ -1,280 +1,317 @@
-    * {
-        box-sizing: border-box;
-        border: none;
-    }
+* {
+    box-sizing: border-box;
+    border: none;
+}
 
-    #om,
-    #bookbord,
-    #billeder,
-    #kontakt,
-    #priser {
-        box-sizing: border-box;
-    }
-    /* Font start */
+#om,
+#bookbord,
+#billeder,
+#kontakt,
+#priser {
+    box-sizing: border-box;
+}
 
-    @font-face {
-        font-family: 'gobold_boldregular';
-        src: url('font/gobold-bold-webfont.woff2') format('woff2'), url('font/gobold-bold-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
 
-    #om p {
-        font-family: 'georgia';
-        font-weight: 50;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin: 20px 0px 0px 0px;
-        color: #a5e9f3;
-    }
+/* Font start */
 
-    #bookbord p {
-        font-family: 'gobold_boldregular', sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin: 20px 0px 0px 0px;
-    }
+@font-face {
+    font-family: 'gobold_boldregular';
+    src: url('font/gobold-bold-webfont.woff2') format('woff2'), url('font/gobold-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-    #billeder p {
-        font-family: 'gobold_boldregular', sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin: 20px 0px 0px 0px;
-    }
+#om p {
+    font-family: 'georgia';
+    font-weight: 50;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+    color: #a5e9f3;
+}
 
-    #kontakt p {
-        font-family: 'gobold_boldregular', sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin: 20px 0px 0px 0px;
-    }
+#bookbord p {
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
 
-    #priser td {
-        font-family: 'georgia', sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
+#billeder p {
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
 
-    #priser table {
-        border-style: solid;
-        border-color: aliceblue;
-    }
-    /* Font slut */
+#kontakt p {
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
 
-    body {
-        background-image: url(baggrund.jpeg);
-        background-size: cover;
-        color: white;
-        width: 100%;
-        margin: 0;
-    }
+#priser td {
+    font-family: 'georgia', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        align-self: flex-end;
-    }
-    /* *** MENU start *** */
+#priser table {
+    border-style: solid;
+    border-color: aliceblue;
+}
 
-    header {
-        position: fixed;
-        /*ligger fast på skærmen */
-        width: 100%;
-        padding: 1em;
-        /* så den fylder hele linjen */
-        /*så den ikke ligger så højt */
-    }
 
-    header nav {
-        font-family: 'Open Sans', sans-serif;
-        text-align: right;
-        margin: 0 5px 0 0;
-        /* dette betyder jeg har sat 5 vw ind til højre, men ikke ændret margin de andre steder */
-    }
+/* Font slut */
 
+body {
+    background-image: url(baggrund.jpeg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
+
+
+/* *** MENU start *** */
+
+header {
+    position: fixed;
+    /*ligger fast på skærmen */
+    width: 100%;
+    padding: 1em;
+    /* så den fylder hele linjen */
+    /*så den ikke ligger så højt */
+}
+
+header nav {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    margin: 0 5px 0 0;
+    /* dette betyder jeg har sat 5 vw ind til højre, men ikke ændret margin de andre steder */
+}
+
+header nav a {
+    text-decoration: none;
+    /*fjerner stregen under links */
+    color: white;
+    /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
+    padding-left: 9px;
+    /*skubber linksene fra hinanden */
+    display: block;
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header nav a:hover {
+    color: #b1cccb;
+    /*brug pseudo-classes til at markerer et link når musen er over */
+}
+
+@media screen and (min-width: 606px) {
     header nav a {
-        text-decoration: none;
-        /*fjerner stregen under links */
-        color: white;
-        /* 'cmd e' får jeg en boks op, og kan derved vælge en anden farve */
-        padding-left: 9px;
-        /*skubber linksene fra hinanden */
-        display: block;
-        font-family: 'gobold_boldregular', sans-serif;
-        font-weight: 100;
-        font-size: 18px;
-        letter-spacing: 1px;
+        display: inline-block;
     }
+}
 
-    header nav a:hover {
-        color: #b1cccb;
-        /*brug pseudo-classes til at markerer et link når musen er over */
-    }
 
-    @media screen and (min-width: 606px) {
-        header nav a {
-            display: inline-block;
-        }
-    }
-    /* *** MENU slut *** */
-    /* *** SPLASH start *** */
+/* *** MENU slut *** */
 
-    .video {
-        height: 56vw;
-        width: 100vw;
-        border-style: none;
-    }
-    /* IKON */
 
-    .ikon {
-        box-sizing: content-box;
-        width: 20vw;
-        position: fixed;
-        top: 0;
-    }
+/* *** SPLASH start *** */
 
-    .ikon img {
-        width: 100%;
-    }
-    /* *** SPLASH slut *** */
-    /* *** index.html start * ***/
+.video {
+    height: 56vw;
+    width: 100vw;
+    border-style: none;
+}
 
-    #om .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 40px;
-        text-align: justify;
-        background-color: rgba(39, 39, 39, 0.4);
-        padding: 40px;
-    }
-    /* *** index.html slut * ***/
-    /* *** Priser start *** */
 
-    #priser .top {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: left;
-        justify-content: center;
-        padding: 215px 15px 0px 15px;
-    }
+/* IKON */
 
-    #priser .bottom {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        text-align: justify;
-        justify-content: center;
-        margin: 0 100px 0px 100px;
-        box-sizing: border-box;
-    }
+.ikon {
+    box-sizing: content-box;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+}
 
-    #priser tr.solid {
-        border-style: solid;
-        border-color: aqua;
-    }
-    /* *** Priser slut *** */
-    /* *** Book bord start *** */
+.ikon img {
+    width: 100%;
+}
 
-    #bookbord .sectionwrapper {
-        padding: 170px 0px 0px 0px;
-        max-width: 600px;
-        margin: 0 auto;
-    }
 
-    #bookbord .content_top {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 600px;
-        margin: 40px;
-        /*    justify-content: center;*/
-        /*    align-items: center;*/
-        /*    margin: 0px 30px;*/
-    }
+/* *** SPLASH slut *** */
 
-    .column:first-child {
-        max-width: 100%;
-        margin: auto;
-    }
 
-    .column:last-child {
-        max-width: 100%;
-        margin: auto;
-    }
+/* *** index.html start * ***/
 
-    #bookbord .column {
-        align-self: center;
-    }
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 40px;
+    text-align: justify;
+    background-color: rgba(39, 39, 39, 0.4);
+    padding: 40px;
+}
 
-    #bookbord .content_bottom {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /*    width: 300px;*/
-        height: 135px;
-        margin: 40px;
-        /*    align-items: center;*/
-        /*    margin: 0px 40px;*/
-    }
 
-    #fname_big {
-        width: 600px;
-        height: 135px;
-    }
+/* *** index.html slut * ***/
 
-    #fname1,
-    #fname2,
-    #fname3,
-    #fname4 {
-        margin: 10px;
-        padding: 0px 0px 0px 60px;
-    }
 
-    .send {
-        background-color: #d71a5e;
-        margin: 10px 0px;
-    }
+/* *** Priser start *** */
 
-    #bookbord .tekst {
-        font-family: 'gobold_boldregular', sans-serif;
-        font-weight: 100;
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-    /* *** Book bord slut *** */
-    /* *** Billeder start *** */
+#priser .top {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+    padding: 215px 15px 0px 15px;
+}
 
-    #billeder .sectionwrapper {
-        padding: 200px 0px 0px 0px;
-        max-width: 100%;
-        text-align: center;
-    }
+#priser .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 0 100px 0px 100px;
+    box-sizing: border-box;
+}
 
-    #billeder .content {
-        margin: 0 auto;
-    }
-    /* *** Billeder slut *** */
-    /* *** Kontakt start *** */
+#priser tr.solid {
+    border-style: solid;
+    border-color: aqua;
+}
 
-    #kontakt .sectionwrapper {
-        margin: 0 auto;
-        padding: 200px 0px 0px 0px;
-        text-align: center;
-    }
 
-    #kontakt .bottom {
-        padding: 100 auto;
-    }
-    /* *** Kontakt slut *** */
-    /* *** FOOTER start * ***/
+/* *** Priser slut *** */
 
-    footer {
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-    }
-    /* *** FOOTER slut * ***/
+
+/* *** Book bord start *** */
+
+#bookbord .sectionwrapper {
+    padding: 170px 0px 0px 0px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#bookbord .content_top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 40px;
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    margin: 0px 30px;*/
+}
+
+.column:first-child {
+    max-width: 100%;
+    margin: auto;
+}
+
+.column:last-child {
+    max-width: 100%;
+    margin: auto;
+}
+
+#bookbord .column {
+    align-self: center;
+}
+
+#bookbord .content_bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*    width: 300px;*/
+    height: 135px;
+    margin: 40px;
+    /*    align-items: center;*/
+    /*    margin: 0px 40px;*/
+}
+
+#fname_big {
+    width: 600px;
+    height: 135px;
+}
+
+#fname1,
+#fname2,
+#fname3,
+#fname4 {
+    margin: 10px;
+    padding: 0px 0px 0px 60px;
+}
+
+.send {
+    background-color: #d71a5e;
+    margin: 10px 0px;
+}
+
+#bookbord .tekst {
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+/* *** Book bord slut *** */
+
+
+/* *** Billeder start *** */
+
+#billeder .sectionwrapper {
+    padding: 200px 0px 0px 0px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#billeder .content {
+    margin: 0 auto;
+}
+
+
+/* *** Billeder slut *** */
+
+
+/* *** Kontakt start *** */
+
+#kontakt .sectionwrapper {
+    margin: 0 auto;
+    padding: 220px 0px 0px 0px;
+    text-align: center;
+}
+
+#kontakt .bottom {
+    padding: 100 auto;
+}
+
+
+}
+
+/* *** Kontakt slut *** */
+
+/* *** FOOTER start * ***/
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/* *** FOOTER slut * ***/
