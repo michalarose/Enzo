@@ -34,7 +34,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     margin: 20px 0px 0px 0px;
-    color: #a5e9f3;
+    color: rgba(15, 176, 178, 0.74);
 }
 
 #bookbord p {
@@ -56,9 +56,17 @@
 #kontakt p {
     font-family: 'gobold_boldregular', sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 10px;
     letter-spacing: 1px;
     margin: 20px 0px 0px 0px;
+}
+
+#kontakt h3 {
+    font-family: 'gobold_boldregular', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgba(15, 176, 178, 0.74);
 }
 
 #priser td {
@@ -66,20 +74,30 @@
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 0.5px;
+    color: rgba(224, 224, 224, 0.74);
 }
 
-#priser p,
-em {
+#priser h4 {
+    font-family: 'gobold_thinregular', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: rgba(15, 176, 178, 0.74);
+}
+
+#priser p {
     font-family: 'gobold_thinregular', sans-serif;
     font-weight: 100;
     font-size: 15px;
     letter-spacing: 0.5px;
+    color: #ffb0de;
 }
 
-#priser table {
+
+/* #priser table {
     border-style: solid;
-    border-color: aliceblue;
-}
+    border-color: rgba(15, 176, 178, 0.74);
+}*/
 
 footer {
     font-family: 'gobold_thinregular', sans-serif;
@@ -166,7 +184,7 @@ header nav a:hover {
 
 .ikon {
     box-sizing: content-box;
-    width: 20vw;
+    width: 25vw;
     position: fixed;
     top: 0;
 }
@@ -199,31 +217,23 @@ header nav a:hover {
 #priser .top {
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: center;
     justify-content: center;
     padding: 215px 15px 0px 15px;
 }
 
 #priser .bottom {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    text-align: justify;
     justify-content: center;
-    margin: 0 100px 40px 100px;
-    box-sizing: border-box;
-}
-
-#priser tr.solid {
-    border-style: solid;
-    border-color: aqua;
+    padding: 0px 100px;
+    margin: 0 auto;
 }
 
 #priser footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 20px 0px;
+    margin: 40px 0px;
 }
 
 
