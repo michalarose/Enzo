@@ -242,9 +242,6 @@
     }
 
     .content_bottom label {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 100%;
         justify-content: flex-start;
         font-family: 'gobold_boldregular', sans-serif;
@@ -256,8 +253,6 @@
     }
 
     #bookbord .content_bottom form {
-        display: flex;
-        flex-direction: column;
         margin: 0 auto;
         width: 50%;
     }
