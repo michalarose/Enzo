@@ -34,7 +34,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     margin: 20px 0px 0px 0px;
-    color: rgba(15, 176, 178, 0.74);
+    color: white;
 }
 
 #bookbord p {
@@ -204,7 +204,7 @@ header nav a:hover {
     flex-wrap: wrap;
     margin: 10px 40px;
     text-align: justify;
-    background-color: rgba(39, 39, 39, 0.4);
+    background-color: rgba(62, 62, 62, 0.31);
     padding: 40px;
 }
 
@@ -214,12 +214,16 @@ header nav a:hover {
 
 /* *** Priser start *** */
 
+#priser .sectionwrapper {
+    padding: 215px 0px 0px 0px;
+}
+
 #priser .top {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    padding: 215px 15px 0px 15px;
+    padding: 0px 100px 0px 100px;
 }
 
 #priser .bottom {
