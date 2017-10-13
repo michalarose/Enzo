@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+.selected {
+    color: rgba(15, 176, 178, 0.74);
+}
+
 
 /* Font start */
 
@@ -157,7 +161,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #b1cccb;
+    color: rgba(15, 176, 178, 0.74);
     /*brug pseudo-classes til at markerer et link når musen er over */
 }
 
@@ -206,6 +210,10 @@ header nav a:hover {
     text-align: justify;
     background-color: rgba(62, 62, 62, 0.31);
     padding: 40px;
+}
+
+#om {
+    color: #b1cccb;
 }
 
 
