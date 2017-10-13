@@ -208,12 +208,6 @@ header nav a:hover {
     padding: 40px;
 }
 
-@media screen and (min-width: 606px) {
-    #om .sectionwrapper {
-        margin: 0px 100px;
-    }
-}
-
 
 /* *** index.html slut * ***/
 
